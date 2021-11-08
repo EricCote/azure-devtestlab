@@ -86,7 +86,7 @@ function Get-VSCodeSetup
     switch ($Architecture)
     {
         '32-bit' { $url = 'http://go.microsoft.com/fwlink/?LinkID=623230' }
-        '64-bit' { $url = 'https://update.code.visualstudio.com/latest/win32-x64-user/stable' }
+        '64-bit' { $url = 'https://update.code.visualstudio.com/latest/win32-x64/stable' }
     }
 
     $setupUrl = Get-RedirectedUrl -URL $url
